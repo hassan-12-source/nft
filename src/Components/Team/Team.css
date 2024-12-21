@@ -1,0 +1,81 @@
+.team-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/./public/images/bg2.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+}
+.team-header{
+    text-align: center;
+    padding: 22px;
+}
+.team-header h1{
+    font-family: 'Alfa Slab One', sans-serif;
+    color: white;
+    font-size: 45px;
+    text-shadow: 
+        1px 1px 0px #0d142f,  
+        2px 2px 0px #0d142f,  
+        3px 3px 0px #0d142f,  
+        4px 4px 0px #0d142f;
+}
+.team-header p{
+    font-family: 'Alfa Slab One', sans-serif;
+    color: whitesmoke;
+    width: 100%;
+    max-width: 500px;
+}
+.team-cards{
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    gap: 18px;
+}
+.card-2{
+    background-color: whitesmoke;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    border-radius: 3px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.card-2 h1{
+    font-family: 'Alfa Slab One', sans-serif;
+    color: #0d142f;
+    margin-top: 10px;
+}
+.card-2 p{
+    font-family: 'Alfa Slab One', sans-serif;
+    color: #555;
+    font-size: 12px;
+    margin-top: 10px;
+}
+@media (max-width: 768px) {
+    .team-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 18px;
+    margin: 15px;
+}
+}
+@media (max-width : 425px) {
+    .team-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 18px;
+    margin: 15px;
+}
+}
+@media (max-width: 320px) {
+    .team-cards{
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 18px;
+    margin: 15px;
+}
+}

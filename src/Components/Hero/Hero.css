@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+.hero-section{
+    position: relative;
+    background-image: url('/./public/images/bg-1.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero-content {
+    text-align: center; 
+    max-width: 600px; 
+    padding: 20px;
+    position: relative;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+.social-icons img{
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    animation: slideInFromRight 1.2s ease-in-out;
+}
+.hero-content h1{
+    margin-bottom: 15px;
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 4rem;
+    color: white;
+    animation: slideInFromLeft 1.50s ease-in-out;
+    text-shadow: 
+        1px 1px 0px #0d142f,  
+        2px 2px 0px #0d142f,  
+        3px 3px 0px #0d142f,  
+        4px 4px 0px #0d142f;
+}
+.hero-content p{
+    margin-bottom: 15px;
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    animation: slideInFromRight 1.2s ease-in-out;
+}
+.btn-hero{
+    display: block;
+    animation: slideInFromRight 1.2s ease-in-out;
+}
+.btn-hero button{
+    background-color: white;
+    padding: 10px 15px;
+}
+.hero-content button{
+    background-color: white;
+    padding: 10px 18px;
+    border-radius: 3px;
+    border-bottom: 4px solid #0d142f;
+    color: #0d142f;
+    font-family: 'Alfa Slab One', sans-serif;
+    transition: transform 0.2s ease, border-bottom-color 0.2s ease;
+}
+.hero-content button:hover {
+    transform: translateY(4px);
+    border-bottom-color: transparent;
+}
+
+@keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  

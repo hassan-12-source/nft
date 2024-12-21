@@ -1,0 +1,54 @@
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 15px;
+}
+.footer-section h1{
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 4rem;
+    color: whitesmoke;
+}
+.footer-section p{
+    font-family: 'Alfa Slab One', sans-serif;
+    color: white;
+    width: 25%;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.footer-icons{
+    display: flex;
+    gap: 25px;
+}
+.footer-icons img{
+    width: 35px;
+    height: auto;
+}
+.line{
+    background-color: antiquewhite;
+    height: 1px;
+    width: 100%;
+    margin-top: 25px;
+}
+.line h1{
+    font-size: 1rem;
+    font-weight: 200;
+    padding: 15px;
+}
+@media (max-width: 636px) {
+    .footer-section p{
+        width: 100%;
+        font-size: 12px;
+    }
+    .footer-section h1{
+        font-family: 'Alfa Slab One', sans-serif;
+        font-size: 25px;
+        color: whitesmoke;
+    }
+    .line h1{
+        font-size: 12px;
+    }
+}
