@@ -18,6 +18,8 @@ Technologies Used :
 - Tailwind CSS: For rapid styling and responsiveness.
 
 
+![Website Screenshot]([./path-to-your-image/image-name.png](https://github.com/hassan-12-source/nft/blob/5bd772d3109681a735c4b5909c357decb12c83dd/bf17d36e-07d6-48b7-97d1-5dc5cdbb8f3e.png))
+
 
 
 # Getting Started with Create React App
