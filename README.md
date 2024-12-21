@@ -1,3 +1,25 @@
+NFT Collection Showcase
+Live Demo: https://nft-01.netlify.app/
+
+This project is a beautifully designed NFT collection showcase, built using React.js, CSS, and Tailwind CSS. It provides an engaging, modern UI for users to explore digital collectibles with smooth animations and responsive design.
+
+Features :
+
+- Responsive Design: Fully optimized for all screen sizes, from mobile to desktop.
+- Smooth Animations: Clean and captivating transitions to enhance user experience.
+- Tailwind CSS: Leverages the utility-first framework for streamlined styling.
+- React Components: Modular and reusable components for easy scalability.
+- NFT Showcase: A dedicated section for displaying an NFT collection with a looping slider.
+
+Technologies Used :
+
+- React.js: For building the dynamic and interactive UI.
+- CSS: For custom styling and unique design tweaks.
+- Tailwind CSS: For rapid styling and responsiveness.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
